@@ -1,34 +1,27 @@
-Everyone seems to have been hypnotized by the alien Paidia, no one seems to remember much about what happened.
-Also, seeing the <name> and Fox finally reunited, the old man was happy...
-From then on, as if nothing had happened, Monchester is still enthusiastic.
-But I know the guys who have supported me through all the hard times.
-Claire's father, Scott, has returned, and Claire looks very happy.
-Dr. Spindle has been traveling in search of new research materials.
-No, the brave boy <name> and the monsters who fought together!
-Well, it would of been nice not to have to take action...
-Of course, <name> 's older brother, Fox, has returned.
-There are not many people who know <name>'s success.
-The alien threat has passed...
-The boy that saved the earth.
-Do not remove the memory card.
-<name> has saved humanity.
-And you will never forget.
-No memory card found.
-Checking memory card.
-Do you want to format?
-Save clear result?
-File not found.
-Not initialized.
-No free space.
-Save game?
-Make a new one?
-Formatting.
-File exists.
+Miss Claire is so happy\nnow that her father,\nMaster Scott, is back.
+Do not remove the Memory Card.
+Memory Card not found.
+Checking Memory Card...
+Format Memory Card?
+Save completion results?
+Save file not found.
+Not Initialized.
+Not enough free space.
+Would you like to save?
+Create new save data?
+Formatting...
+Save file already exists.
 Formatted.
 Formatted.
-Creating.
+Creating...
 Saving...
-I failed.
-Created.
+Operation failed.
+Creating...
 Saved.
-No data
+SAVE
+YES
+NO
+And so, the threat from\nthe aliens has passed...\fYou have saved humanity,Master <name>.
+Since then, Monchester\nstill thrills the crowdsas if all were normal.\fFew people know of your\ngreat deeds,\nMaster <name>.\fBut the friends who\nstood by you in hardshipknow what you did.\fAnd they shall never\nforget.\fThat a single boy saved\nthe Earth from disaster.\fNo! That brave boy,\nMaster <name>, and\nmonsters by his side!
+Dr. Spindle has set off\nto seek new material\nfor his research.\fI only hope he doesn't\nact quite so rashly\nthis time around...
+Of course, your brother,Master Fox, has returnedas well.\fIt seems everyone fell\nunder alien Pydia's\nhypnotic spell.\fThey recall very little\nof what happened.\fTo see you both happy\ntogether once more\nbrings me such joy...

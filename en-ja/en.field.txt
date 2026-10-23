@@ -1,315 +1,191 @@
-To join in the A League, all the monsters require more experience.
-To join in the B league, all the monsters require more experience.
-A level 15 monster or higher and a black cause ball are required.
-Oh, it's impatient to to join the A league before the B league.
-There are no monsters you can create with your cause balls.
-There are no monsters you can generate with a cause ball.
-No, no, you have to win at least once in the C league.
-No, no, you have to win at least once in the B league.
-Nope, we need to be able to go to the B league first.
-You aren't eligible to participate in the B league
-No good, you've beaten the stage master, no good.
-For the time being, participate in the B league.
-Oh, you're going to beat the stage master again?
-I can't let such a person participate here.
-I can't let such a person participate here.
-That's when they win the C league around once.
-That's when they win the B league around once.
-On the whole, should I practice a little more?
-Isn't it better to know your body first?
-Is it okay to try various combinations?
-<name>'s monsters are all masters.
-Also, view the other party's info with □ .
-You can't participate in the A-League yet.
-No good, A-league has to work harder.
-No good, B-League has to work harder.
-You already beat the stage master.
-You are not eligible for the league.
-You already beat the master already, right?
-There must be a little stronger monster.
-Please come back with your sister again.
-This stage seems to you too early.
-You have never won the C League.
-You have never won the B League.
-You can't be in the B league yet.
-you need three types of cause balls.
-It's too early to join the A League.
-It's too early to join the B league.
-You already beat the stage master.
-I need a little more monster level.
-You shouldn't need to buy any more.
-As expected, isn't it possible?
-Monsters, all work together.
-Monsters, all work together.
-It's better to work harder.
-It's better to work harder.
-I need a little strong monster.
-I need a little strong monster.
-Do your best in the C League.
-Do your best in the B League.
-First, aim for the B league.
-Isn't the level a little short?
-You've won the master here.
-Oh, I was expecting a little.
-No further growth is needed.
-Do not remove the memory card.
-Isn't this your ability?
-Which combination do you make?
-Hey, what league you wanna join?
-I don't know if I can't do it.
-You won't be in the A-League.
-Which monster will you grow?
-For now, try the C league.
-For now, try the B league.
-You can do it, despite looks.
-The B league is still early.
-Insufficient overall ability
-Which league will you join?
-Guy who can’t win B league
-A league is still early.
-Ah, go back to the C league,
-Ah, go back to the B league,
-I'll do my best next time.
-I'm glad you came again.
-Now, who will you play?
-The game is luck of time.
-Oh yeah...disappointing.
-Choose a league to join.
-Welcome to Sky Stadium.
-Choose a league to join.
-To generate a monster,
-No memory card found.
-Get well and work hard!
-Get well and work hard!
-Checking memory card.
- □ for the other party.
-Please do your best.
-A strong man is steki.
-Well, what'll you do?
-Do you want to save?
-Go to the last battle.
-Well, what'll you do?
-Do you want to format?
-I can't have any more.
-You must be talented.
-Who will you fight?
-A monster was born.
-Something like this.
-No, no weak man
-I've waited for you.
-It's a big deal.
-Who will you fight?
-Please come again.
-You came again.
-Data is corrupted.
-Don't bring items
-Please try again.
-I'll do my best.
-You're stronger.
-You cannot grow.
-File not found.
-Not formatted.
-Congratulations.
-Not initialized.
-Fight with Paidea
-Not enough G, yup.
-Will you buy this?
-What will you buy?
-Good luck today.
-You don't do it.
-That's wonderful.
-I'm coming back.
-Well, at best.
-Good luck today.
-Star was born.
-Come again, yup.
-Do you sell this?
-, what'd you like?
-Don't feel down.
-It's not easy.
-It's not easy.
-We will wait.
-How do you like?
-Do you do it?
-It's not easy.
-Which league?
-No free space.
-That's amazing.
-I'll come again.
-All monsters,
-Make a new one?
-Load file?
-Welcome back.
-See you later.
-I didn't do it.
-It’s not great.
-Now, Gamba! !
-You are strong.
-Please come.
-Yes, yes.
-I do it firmly!
-Formatting.
-File exists.
-I support you.
-Do your best〜.
-In great shape
-Sounds good.
-Can’t see you.
-Which league?
-Good luck.
-You have it.
-You can buy
-Please go.
-In great shape
-Good luck!
-Don't fall.
-You're cool 〜
-Create monster
-Monster growth
+  Wht%5d  Red%5d
+  Grn%5d  Blu%5d
+  Ylw%5d  Blk%5d
+  Pur%5d    Back
+Welcome back, \nMaster <name>.
+What would you like\nto do, Master <name>?
+Oh my! You want to enter\nthe A League before B?\nAren't you impatient!
+Not yet! You need to win at\nleast once in C League first!
+Not yet! You need to win at\nleast once in B League first!
+Not yet! You'll have to unlock BLeague first!
+No, no! You've already beaten\nthe Stage Master, remember?
+You'll need to unlock B League\nbefore you can enter here.
+Oh my! You've already beaten\nthe Stage Master!\nYou want to beat them again?
+But you've already beaten\nthe Stage Master!
+You've already beaten our Stage\nMaster, remember?
+Come back and see your big sis\nagain, okay?
+It seems this stage\nis beyond you for now.
+You have already defeated\nthe Stage Master.
+You don't need any more\nof those!
+I had my suspicions,\nbut you failed after all.
+Try your luck in C League beforecoming here.
+Try your luck in B League beforecoming here.
+For now, make it your goal\nto qualify for the B League!
+But you've already beaten our\nStage Master!
+Aww, I had my hopes up...
+Do not remove the Memory Card.
+That's not all you've got,\nis it?
+Which combination would\nyou like to use?
+Hey, hey! Which league do you\nwanna enter?
+Which monster would you\nlike to grow?
+For now, just do your best\nin the C League!
+For now, just do your best\nin the B League!
+Which league would you\ncare to enter?
+Yay! You came back to see me!
+Well, sometimes winning just\ncomes down to luck.
+Oh, that's too bad.
+Choose which league\nyou'd like to enter.
+Go on, choose your league!
+Memory Card not found.
+Cheer up! You'll get another\nchance!
+Checking Memory Card...
+So, what'll it be?
+Would you like to save?
+Proceed to the final battle.
+Now then, what will you do?
+Format Memory Card?
+You can't carry any\nmore, pal!
+Whom would you care\nto challenge?
+A monster has been born!
+Well, these things happen.
+Oh, dear.\nWeak boys aren't very popular,\nyou know!
+For a lucky break, that wasn't\nhalf bad.
+Who are you gonna battle?
+Save data is corrupted.
+Don't Bring Items
+Keep up the good work, sweetie!
+Save file not found.
+Not Formatted.
+Not Initialized.
+Battle against Pydia
+You're short on cash,\npal!
+Whatcha buyin'?
+Do your best out there today!
+Come back when you're ready.
+Come back anytime, pal!
+How may I assist you?
+You're pretty good, aren't you?
+Which league would you like to\nenter?
+Not enough free space.
+Create new save data?
+Load Save Data?
+Well then, see you next time!
+I wish you well.
+Get it together out there!
+Formatting...
+Save file already exists.
+Good luck out there!
+You seem to be doing well.
+Have a safe journey,\nsir.
+Create Monster
+Monster Growth
 Formatted.
 Formatted.
-Want to start?
-What is it?
-What is it?
-What is it?
-In that tone.
+Start?
+What a cheapskate!
 Do your best!
-You can buy
-Good luck.
-Come again.
-Please come.
-Please come.
-Decide soon.
-What to do?
-Which one?
-Silver devil
-Thank you.
-Thank you.
-Thank you.
-Thank you.
-What is it?
-Mr. <name>
-Which one?
-Good luck.
-Cheer up! !
-Which one?
-Oh, sorry.
-Coin pocket
+Good luck in your match!
+Come back and see me!
+Well? What's it gonna be?
+Who would you like to battle?
+Silver Devil
+Thanks a bunch, pal!
+Whatcha need?
+Who do you wanna battle?
+Coin Pocket
 Schlesinger
-has grown.
+%s has grown!
 C'mon in.
-Do not have
-C'mon in!
-You did it!
-Pydia body
-Creating.
-Is it OK?
-Oh, you.
-You came.
-Also you?
-Choose one
-I failed.
-Wow wow.
-Wow wow.
-Not good.
-Soooooooo
-Welcome.
-Umwetter
+Do not have.
+Pydia's Body
+Creating...
+Are you sure?
+What would you like to do?
+Operation failed.
+How disgraceful.
+Unwetter
 Gibraltar
 Aldebaran
-Belt loop
-Side seam
-Created.
-Loading.
-Loaded.
-Albatrov
+Belt Loop
+Side Seam
+Creating...
+Loading...
+Loaded...
+Albatroff
 Tempesta
-Saffilia
-Saving.
+Saphiria
+Saving...
 Saved.
-No items
-Oh no.
-Oh no.
-Woodpec
-Iwashkov
-Sishamon
-Amethyst
-Mangolow
+No Items
+Woodpeck
+Iwashikov
+Shishamon
+Amejit
+Mangoro
 Anacondo
 Alligate
-Chukapag
+Chucapag
 Gretoria
 Thompson
-Hello.
-Huh ...
-See you.
 Griffin
-Tampeto
+Tempete
 Shakkon
 Canopus
 Antares
-Smeraldo
-Astica
-Orangut
+Merald
+Astika
+Oraunga
 Beefoot
-mask man
-spindle
-No data
-...yup.
-So I.
-Falkov
-Boolean
+Masked Man
+Spindle
+Falcoff
+Burya
 Tuella
-Serrace
-Jupita
-Scopie
-Christa
-Golipin
+Ceres
+Jupitta
+Scorpy
+Crysta
+Goripin
 Gelato
 Namiboo
-Takara
+Taklakama
 Saharan
-Slot 1
-Slot 2
-Ah! !
-Braken
-Oren ヂ
-Whiter
+SLOT 1
+SLOT 2
+Blacken
+Orange
+Whita
 Greena
 Sturm
-Sizimi
-Holmes
-Melaka
+Shijimi
+Hormuz
+Malacca
 Dessel
-Tritan
-Mama's
-Jumina
+Triton
+Mamars
+Gemina
 Helios
 Soleil
 Indus
-Tigru
-Niiris
-Papaya
+Tigriu
+Nilis
+Papaima
 Dorian
-Gostin
-Pirani
-Yeddy
-zipper
-stitch
+Gosteen
+Pirany
+Yedee
+Zipper
+Stitch
 Eclair
 Gargal
-Stall
-Goldou
+Stahl
+Goldo
 Marine
 Pydia
-A type
-B type
-C type
-What〜
-Ayoyo
-Yes!
-Wow.
-Redon
+TYPE A
+TYPE B
+TYPE C
+Reddon
 Bloom
 Fukuro
 Hirami
@@ -317,71 +193,126 @@ Drake
 Dover
 Navis
 Skiff
-Capela
-Sagit
-Luffy
+Capella
+Sagitt
+Rufi
 Diane
 Taiyo
-Sonza
+Sontsa
 Benana
 Hipopo
-Pitex
-Wutan
-Pansy
-button
+Pithecus
+Utan
+Panzee
+Button
 Annin
-cream
+Cream
 Nedaba
-Takdo
+Takudo
 Claire
-McKon
-Fast+
+Mackun
+INSTANT
 Pippi
 Tobio
 Barco
-Naive
-Beena
+Nave
+Veena
 Capri
 Airy
 Longa
-jelly
-jello
+Jelly
+Pudding
 Goby
 Mimmy
 Fox
-Money
-Money
-Usual
-No.
-Hey.
-Hey.
-Hey.
-Yes.
-Gray
+NORMAL
+Grey
 Luna
-Tola
+Tora
 Maya
-coin
-Slow
-Fast
-Bow
+SLOW
+FAST
+Baus
 Vega
-name
-Back
-Aki
+Name
+BACK
+Akashi
 Sol
-Sun
-Oka
-萎
-憊
-衣
-憑
-倨
-鞨
-白
-赤
-緑
-青
-黄
-黒
-紫
+San
+Koka
+How splendid.\nCongratulations.
+Well, look at you!\nStrong men are just dreamy!
+Don't let it get you down.\nGive it another try!
+You have yet to win\na single B League match.\fI'm afraid I cannot permit\nsomeone like you to enter.
+Oh my, you're actually\npretty amazing!
+You do not qualify for that\nleague.\fYour overall abilities are\nsimply insufficient.
+Oh, no, sweetie!\fAll your monsters need more\nexperience before entering the\nB League.
+Back again, sweetie?\nDo your best out there!
+You did it! You're really\non a roll now!
+Wow, nicely done!\nKeep up the good work!
+You're not quite ready\nfor the A League yet.\fYour monsters need a few more\nlevels.
+%s\nYa know.
+You have yet to win\na single C League match.\fI'm afraid I cannot permit\nsomeone like you to enter.
+Who would you like to face?\nPress □ to see your opponent's\ninformation, by the way!
+Please do visit us again.\nWe shall await your return.
+You're in splendid form.\nDo keep up the good work.
+Oh, sweetie, I think\nyou should spend a little\nmore time in the B League.
+Hey, not bad at all!\nKeep it up!
+You aren't even qualified\nto enter the B League.\fPerhaps you should know your\nlimits.
+Now then, who will you face?\nPress □ for your opponent's\ninfo!
+%s\n%s\nThat's the deal.
+You've returned, I see.\nI've been expecting you.
+Got nothin' else I can\nbuy from ya.
+Off you go! I'm rooting for you!
+Oh, no, sweetie!\fAll your monsters need more\nexperience before entering the\nA League.
+Hello! Welcome to Sky Stadium!
+It's a bit too soon\nfor you to enter the B League.\fLooks like you're just\na little short on levels.
+%s\n%s\nThat's the deal.
+Oh, sweetie, I think\nyou should spend a little\nmore time in the C League.
+Ya got nothin' I can\nbuy!
+SAVE
+LOAD
+YES
+NO
+ON
+OFF
+%d: No Data
+　Money　＜ %6ld ＞
+　Money　　 %6ld 　
+　Coins　＜ %6ld ＞
+　Coins　　 %6ld 　
+Money %6ldＧ
+Ooh! Not bad at all!
+You're not ready for A League\nyet!\fYou need some stronger monsters.\fCome back when you're ready!
+Whoa! You're actually pretty\ngood!
+You can't enter A League just\nyet.\fKeep working together with your\nmonsters!
+All right. See you again!
+Don't get discouraged!\nCome on, you can do it!
+All your monsters have\nreached Master rank.\fThey need no further\ngrowth, young master.
+Sell %s?\n\n　　　　　　YES　NO
+Oh, that's too bad! Cheer up andtry again!
+You can't enter B League just\nyet.\fKeep working together with your\nmonsters!
+You're not ready for B League\nyet!\fYou need some stronger monsters.\fCome back when you're ready!
+All right, then. Come back\nsometime.
+Welcome back! Good luck out\nthere today!
+Wow, you're really strong!\nThat's amazing!
+Sheesh! What a pathetic sight!
+You have every monster\nalready, young master.
+You again? Well, do your best.\nYou'll need it.
+Hey, you!\fYou can't even enter B League!\nWhat makes you think you can\nenter A League?
+Not yet! You're not ready for B\nLeague!\fYou'll need some stronger\nmonsters first!
+Huh... Not bad for someone like\nyou. I'm impressed.
+You did it! Keep up the good\nwork!
+Cheer up! There's always next\ntime! You can do it!
+Oh, wow! You've gotten so much\nstronger!
+Eee! That was amazing!\nYou're so cool!
+Hey, you!\fWin at least once in B League\nbefore picking that!
+Buy %s?\n\n　　　　　　YES　NO
+Hey, you!\fWin at least once in C League\nbefore picking that!
+You've definitely got talent! I\njust know it!
+Growth is not possible.\fYou need a monster at\nlevel 15 or above, and ablack Core Orb.
+With your current\nCore Orbs, no monsters\ncan be created.\fI suggest trying\ndifferent combinations.
+With your current Core\nOrbs, no monsters can\nbe created.\fCreating a monster\nrequires three kinds of\nCore Orbs.
+Oh, that's just embarrassing! I\ncan't even watch!
+Which league? Make it quick!
+Not yet! You're not ready for A\nLeague!\fYou should practice a little\nmore first!

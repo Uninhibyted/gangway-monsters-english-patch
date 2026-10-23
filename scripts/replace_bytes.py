@@ -5,6 +5,8 @@ from lzss import compress, decompress
 import argparse
 import sys
 import os
+import struct
+import strings_patch
 
 # strings where the English version should end with term, then padded with spaces
 term_strings = [
@@ -56,8 +58,52 @@ en_keyboard = b'\x65\x00\x00\x00\x64\x00\x00\x00\x63\x00\x00\x00\x62\x00\x00\x00
 allowedbuffer = 0
 too_many_bytes = False
 
+# Memory card save header in SLPS: the save's file name, then its title as shown on memory
+# card screens. The title is full-width Shift-JIS (what the BIOS can display) and has the
+# original title's 26 bytes plus 8 bytes of zero padding to use.
+SAVE_FILE_NAME = b'BISLPS-01468GAMON\x00\x00\x00'
+SAVE_TITLE = "ＧＡＮＧＷＡＹ　ＭＯＮＳＴＥＲＳ".encode('shift-jis')
+SAVE_TITLE_BYTES = 34
+
+def set_save_title(data):
+    start = data.index(SAVE_FILE_NAME) + len(SAVE_FILE_NAME)
+    if len(SAVE_TITLE) + 1 > SAVE_TITLE_BYTES:
+        raise ValueError("Save title is too long")
+    return data[:start] + SAVE_TITLE.ljust(SAVE_TITLE_BYTES, b'\x00') + data[start + SAVE_TITLE_BYTES:]
+
+# Coin bets in CASINO.BIN. The game loads each of these strings by its own address, and the
+# compiler padded each to a 4-byte boundary, so a translation may also use that padding.
+# Plain spaces line the amounts up (full-width spaces are wider than full-width digits).
+CASINO_BETS = [("　　５枚", "  5 coins"), ("　２０枚", " 20 coins"), ("１００枚", "100 coins"),
+               ("２００枚", "200 coins"), ("４００枚", "400 coins"),
+               ("５枚", " 5"), ("１０枚", "10"), ("２０枚", "20"), ("５０枚", "50")]
+
+# Files whose strings strings_patch.py may repack
+RELOCATE = {"field", "casino", "title", "vsmode", "ending", "slps", "opendemo"}
+
+def replace_in_slot(data, old, new):
+    # Replace the whole string old (between end markers) with new, using the zero padding
+    # after it, up to the next string
+    old, new = old.encode('shift-jis'), new.encode('shift-jis')
+    match = b'\x00' + old + b'\x00'
+    if data.count(match) != 1:
+        raise ValueError(f"Expected one {old.decode('shift-jis')}, found {data.count(match)}")
+    start = data.index(match) + 1
+    end = start + len(old)
+    while end < len(data) and data[end] == 0: end += 1
+    if len(new) + 1 > end - start:
+        raise ValueError(f"'{new.decode()}' needs {len(new) + 1} bytes; the slot has {end - start}.")
+    return data[:start] + new.ljust(end - start, b'\x00') + data[end:]
+
+def replace_once(data, old, new):
+    if data.count(old) != 1:
+        raise ValueError(f"Expected one match for {old.hex()}, found {data.count(old)}")
+    return data.replace(old, new)
+
 def replace_asm(filename, data):
     if filename == "slps":
+        data = set_save_title(data)
+
         # Reduce cursor x position change from 4 shifts to 3 shifts during input mode
         data = data.replace(
                 b'\x30\x00\x02\x09\x00\x42\x2A\x0E\x00\x40\x14\x00\x11\x11\x00\x05',
@@ -80,6 +126,26 @@ def replace_asm(filename, data):
                 b'\x21\x18\x40\x00\x01\x00\x62\x28',
             )
 
+        # Field messages (forward_one_font, 80020bec): after a 1-byte character the game draws
+        # the next byte in the same step if it's below 0x81, without checking for a line or box
+        # break, so a break right after an odd number of letters was drawn as a character. A
+        # player name of odd length shifts every line it's in that way. Only pair printable
+        # bytes (0x20-0x80), so breaks are always seen:
+        #   80020cac  lbu   v0, 1(a0)        lbu   v0, 1(a0)
+        #   80020cb0  nop                    lhu   v1, 0x33c(gp)  (moved up)
+        #   80020cb4  sltiu v0, v0, 0x81     addiu v0, v0, -0x20
+        #   80020cb8  beqz  v0, 80020d38     sltiu v0, v0, 0x61
+        #   80020cbc  andi  v0, a1, 0xffff   beqz  v0, 80020d38
+        #   80020cc0  lhu   v1, 0x33c(gp)    andi  v0, a1, 0xffff
+        #   80020cc4  nop                    nop
+        data = replace_once(data,
+                bytes.fromhex('01008290' '00000000' '8100422c' '1f004010' 'ffffa230' '3c038397' '00000000'),
+                bytes.fromhex('01008290' '3c038397' 'e0ff4224' '6100422c' '1e004010' 'ffffa230' '00000000'))
+
+    if filename == "casino":
+        for old, new in CASINO_BETS:
+            data = replace_in_slot(data, old, new)
+
     if filename == "battle":
         # 01 00 83 90 -> 00 00 83 90
         # 00 00 82 90 -> 83 00 02 34 (change command to ori with 0x83)
@@ -96,10 +162,35 @@ def replace_asm(filename, data):
             b'\x21\x28\xA3\x00\x00\x8C\x14\x00\x03\x8C\x11\x00\x08\x00\x24\x26\x40\x80\x11\x00\x1B\xC7\x02\x0C\x21\x20\xA4\x00\x21\x80\x11\x02\x40\x80\x10\x00\x80\x02\x10\x26\x00\x84\x10\x00\x03\x24\x10\x00'
             )
 
-        # TODOs:
-        # - battle text may be aligned weirdly if the name has an odd number of bytes (or if it's longer than 8 characters)
-        # - needs to draw 16 characters instead of 8
-        # - if texture is updated to english, it might have to be smaller (at least for the default names, name input only allows 8).
+        # Narrower VS screen letters, so names of up to 12 characters fit: each glyph is
+        # copied into the name strip 16px wide instead of 24 (vs_font.py draws them that
+        # way), the strip position advances 16px per character, and 12 characters are
+        # drawn instead of 8. The strip stays 192px wide, and name fields are 16 bytes.
+        data = replace_once(data,
+            b'\x1b\xc7\x02\x0c\x21\x20\xa4\x00\x21\x80\x11\x02\x40\x80\x10\x00\x80\x02\x10\x26',
+            b'\x1b\xc7\x02\x0c\x21\x20\xa4\x00\x00\x00\x00\x00\x40\x80\x10\x00\x80\x02\x10\x26')  # x = 4*i, not 6*i
+        data = replace_once(data,
+            b'\x06\x00\x06\x24\x18\x00\x07\x24',
+            b'\x04\x00\x06\x24\x18\x00\x07\x24')  # glyph width 4 halfwords (16px), height 24
+        data = replace_once(data,
+            b'\x08\x00\x42\x28\xcd\xff\x40\x14',
+            b'\x0c\x00\x42\x28\xcd\xff\x40\x14')  # 12 characters per name
+
+        # Digits on the VS screen. The lookup above (B1C6C, after the edit at its start)
+        # turns a name byte into a glyph number: 0x40-0x7e to glyphs 0-62, anything below
+        # to the blank glyph 80. Rewritten so digits go to glyphs 64-73 (katakana slots
+        # English names never reach; vs_font.py draws the digits there):
+        #   lbu v1,0(a0); addiu v0,v1,-0x30; sltiu a0,v0,10; beq a0,zero,+3
+        #   addiu a1,v1,-0x40; jr ra; addiu v0,v0,64              (digit: 64 + d)
+        #   sltiu a0,a1,0x3f; bne a0,zero,+2; nop; addiu a1,zero,80 (else blank)
+        #   jr ra; andi v0,a1,0xffff
+        lookup = [0x90830000, 0x2462ffd0, 0x2c44000a, 0x10800003, 0x2465ffc0, 0x03e00008, 0x24420040,
+                  0x2ca4003f, 0x14800002, 0x00000000, 0x24050050, 0x03e00008, 0x30a2ffff]
+        data = replace_once(data,
+            bytes.fromhex('83000234000083900012020021186200ffff64305b81023402008214500005244f000524'
+                          '3f8302342b1044000a0040107e8302342b104400030040149483023431c70208c07c6524'
+                          '2b1044000200401400000000bf7c65240800e003ffffa230'),
+            struct.pack('<24I', *(lookup + [0] * 11)))
 
     return data
 
@@ -230,10 +321,27 @@ if __name__ == "__main__":
 
         dataresult = rawdata
 
-        for i in range(len(linesja)):
-            #linesen[i] = linesen[i].replace("\\n", "\n")
-            b1 = linesja[i].encode('shift-jis')
-            b2 = linesen[i].encode('shift-jis')
+        # Strings that can be repacked (see strings_patch.py) may be longer than the Japanese
+        relocate = args.filename in RELOCATE
+        # "\\n" and "\\f" stand for a line break and a new box, for strings that span them. Longer
+        # Japanese goes first, so a whole message is replaced before the lines inside it (a stable
+        # sort: of two translations of one string, the first still wins)
+        unescape = lambda t: t.replace("\\n", "\n").replace("\\f", "\x0c")
+        order = sorted(range(len(linesja)), key=lambda i: -len(unescape(linesja[i]).encode('shift-jis')))
+        pairs = [(unescape(linesja[i]).encode('shift-jis'), unescape(linesen[i]).encode('shift-jis'))
+                 for i in order if linesja[i]]
+        if relocate:
+            _, movable = strings_patch.movable_strings(rawdata, [a for a, _ in pairs])
+            def only_movable(ja):
+                i = rawdata.find(ja)
+                while i >= 0:
+                    if not any(s <= i < e for s, e in movable.items()): return False
+                    i = rawdata.find(ja, i + 1)
+                return True
+
+        for i in order:
+            b1 = unescape(linesja[i]).encode('shift-jis')
+            b2 = unescape(linesen[i]).encode('shift-jis')
 
             if len(b2) <= len(b1):
                 l = len(b1) - len(b2)
@@ -245,6 +353,8 @@ if __name__ == "__main__":
 
                 b2 += padding
                 dataresult = dataresult.replace(b1, b2)
+            elif relocate and b1 and only_movable(b1):
+                pass  # strings_patch puts the longer English in
             else:
                 too_many_bytes = True
                 print(b1.decode('shift-jis'))
@@ -255,6 +365,8 @@ if __name__ == "__main__":
             print("ERROR: Fix above issues first.")
         else:
             dataresult = replace_asm(args.filename, dataresult)
+            if relocate:
+                dataresult, _ = strings_patch.patch(rawdata, dataresult, pairs, verbose=True)
             if args.filename == "slps":
                 dataresult = dataresult.replace(ja_keyboard, en_keyboard)
                 binname = f"{GAME_DATA_OUT_DIR}/SLPS_014.68"

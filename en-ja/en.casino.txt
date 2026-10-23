@@ -1,375 +1,140 @@
-If you take part in a pockle race, you have over 100 coins.
-Only recognized monster owners are allowed in.
-If you participate in Pockle Stone, buy 5 or more coins.
-If you want to get a pockle card, you need 5 coins.
-Fufufu, let's show the Tak Daw style Pockle Stone!
-Maybe unsuitable..Let's meet at the stadium later!
-I'm Schlesinger, the strongest man of pocklestone.
-I'll get another invitation once you can join.
-I'll get another invitation once you can join.
-If the coins are 0, you can't play in the race.
-It's a game to compete for a combo of 5 cards.
-Please refer to the various information.
-You need an invitation to gamble here.
-You can't participate in the pockle card.
-The sandwiched frame will be turned over.
-Saying a draw is my defense, hohoho!
-You can't take part in the pockle race.
-Well, if you try it for now, you know?
-Do you want to skip the elderly turn!
-This is no place for children.
-You can see it as soon as you try it.
-Select card & press ○ to remove it.
-Think, a strong opponent is coming.
-Simply put, 4 monsters race.
-It wasn't a Takudo style enemy.
-First of all, what is your arm?
-Choose how many coins to spend.
-I want you to replenish coins.
-Combo of 3 and 2 same monsters
-Replace it w/ a mountain card.
-Get coins from your opponent.
-1-5 combos of the same monster
-5 different monsters & poses
-Combo of 5 cards w/ same pose
-Well, what do you want to do?
-I'm a tough opponent.
-Let's have another game!
-Well, according to the rules
-How many coins do you buy?
-The success of the year..
-I thought you would come.
-So, you want to gamble?
-It ’s not easy to do it.
-Hi, Claire...
-I'm playing with Takudo!
-Mimi is your partner!
-Combo of 2 same monsters
-Combo of 3 same monsters
-Combo of 4 same monsters
-What do you want to do?
-What you do is amazing.
-Here comes Schlesinger!
-Your opponent: Thompson!
-It ’s “three together”.
-I wanna see you again...
-Repeat this alternately,
-Please enjoy yourself.
-He's the strongest man.
-It's a childhood friend
-Uhyohyo ... what is it?
-"Everyone is together!"
-Then, each other's card
-Hey, what do you do?
-Expect and bet coins.
-In such a simple game,
-... well, well, anyway
-Shall I explain rules?
-I want you to go home.
-"It's full of pockles"
-Mountain card is gone,
-Pockle 1-5 combination
-This is the hi-mi-tsu.
-Did I say this before?
-Wow, it's dangerous..
-Yeah, fight me again!
-Can't show my thoughts
-The "Full of Pockles"
-The "Full of Pockles"
-You decide your stake.
-The danger increases.
-When you select a card
-Not enough cards left
-According to the role
-To see the role info
-Thank you very much.
-You must be clear!
-Maybe we feel good.
-Mumumu ... I'm done!
-There are few coins.
-...Well, it's gone.
-Gyo ... what is it?
-"Four together" game
-"Do you get along?"
-He's strongest man!
-I need more coins.
-It ’s taken a lot.
-I was able to do it.
-Fufufu...what is it?
-"Nakayoshi" Complete
-..This kind of thing
-I need more coins.
-Card you'll exchange
-After replacing card
-Shown in %ld coins.
-I need more coins.
-One more, one more!
-You're sloppy, you.
-No place to put it.
-"Everyone together"
-"Full of pockles"
-Choose any amount.
-You need more coins.
-You need more money.
-What will you do?
-Calculate dividend.
-I'll go once more!
-I give you a coin!
-Looks like my win!
-It was a fun game.
-Don't be careless.
-Well, I'll stop.
-More you put, more
-If you put a frame
-I'm the winner.
-This is expensive.
-I finally did it!
-Anyway ... what?
-I finally did ...
-I choose with ○ .
-I can cancel it.
-The selected card
-Press the button.
-The first monster
-Hear explanation?
-I'm the strongest.
-It's the strongest
-I did it! I won.
-Fufufufufufufu...
-If no place to put
-...It's terrible.
-You are quite good
-That's what it is.
-Please go ahead.
-The more you bet,
-First, five cards
-Card I'll exchange
-The explanation is
-Come, snow fight!
-You think so too?
-"U bad?" Complete
-That's no use ...
-"Four together"
-Then, per game
-To make a stop,
-I'll come around.
-Replace with %s.
-Come play again.
-Don't come here
-Let's go back.
-Race has started.
-It's a draw ...
-Do n’t do that.
-I'll tell you!
-You'll get it.
-"Three together"
-Start the game.
-Make a good role
-You listen? Huh?
-Replace with %s?
-Replace with %s?
-Replace with %s?
-To draw a game
-Last exchange
-Profit is nice,
-Your nomination.
-Choose another.
-Let's go again!
-I can’t put it.
-I won't do it!
-I won't lose!
-...hahahahaha.
-Can't be there
-What do you do?
-I'll give you.
-Please ask ...
-"Two together"
-That's the end.
-Next is my turn
-That's the end.
-The pockle card
-Why is this!
-See Thompson!
-<name> -kun!
-Your opponent!
-What is it?
-Father! Mom!
-"Two together"
-Alright, done!
-"Full house"
-Press STOP.
-Again, explain
-I'm coming.
-Are you sure?
-Are you sure?
-Then here.
-Pockle stone.
-I was waiting.
-Good luck.
-Umm, sorry!
-Onee loses.
-LaLa♪ LaLa♪
-……… Um ………
-Pockle stone
-I'm losing.
-I'll give you.
-I'm losing.
-I'll give you.
-I feel good.
-It's a draw.
-It's a crack.
-I could do it.
-It's hard ...
-I understand.
-Last exchange
-Either stop
-Exchange items
-I understand.
-Let's go back.
-To little boy
-He's strong.
-I'll get you.
-I'll get you.
-"Full House"
-This is big!
-...Ska...
-I'm starting.
-Think again.
-I will win.
-If it's hard,
-Want to ask?
-Pockle race.
-Pockle card.
-Betting on..?
-I think no.
-I was done.
-That's OK.
-I'm sorry.
-"OK" button
-I like you.
-Liquidation.
-All right!?
-If I do
-You can put
-Come on
-Um, umm〜
-What's that?
-Welcome!
-Completed!
-"Nakayoshi"
-Put simply,
-I'm sorry.
-I'm sorry.
-I'm sorry.
-I'm sorry.
-I'll enter.
-I'm sorry.
-I'm sorry.
-I'm sorry.
-I'm sorry.
-What...
-Welcome!
-Yeah? Yeah?
-What is it!
-Among them,
-To be safe,
-Welcome!
-Congrats!
-Mumumu...
-Come on!
-Wow, you?
-I won.
-I did it.
-It's a ska
-Give away.
-Until call
-Press GO,
-Welcome.
-Welcome.
-Welcome.
-Oh, boo!
-I'm sorry.
-Hear rules
-I can't!
-No, no!
-Also ~!
-Bullshit!
-Hohohoho.
-Hey! ?
-I can win!
-How is it!
-Press it.
-………that?
-..Right?
-Open it.
-Okay,
-Well then
-Buy coin
-It's %s.
-Mimi!
-Claire
- coin
- coin
- coin
- coin
- coin
- coin
-This is?
-This is?
-Fugo!?
-That!?
-Well now
-Do it.
-Rules
-No hear
-Give in
-Hooray~
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Hey〜
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Yeesss.
-Oh〜.
-Wow!
-Yeah!
-Good.
-Uh ...
-Uh...
-stop!
-Ufufu.
-Hey〜
-Okay?
-Okay?
-100 枚
-200 枚
-400 枚
-That,
-Okay~
-you!
+You'll need at least 100 coins to enter the Pockle Race.
+You'll need at least 5 coins\nto play Pockle Stone.
+You'll need at least 5 coins\nto play Pockle Card!
+You can't enter the race\nwithout placing a bet!
+THREE OF A KIND & A PAIR
+CARDS 1-5 OF THE SAME MONSTER
+FIVE MONSTERS, FIVE UNIQUE POSES
+FIVE CARDS WITH MATCHING POSES
+What would you like to do?
+How many coins would\nyou like to buy?
+TWO CARDS OF THE SAME MONSTER
+THREE CARDS OF THE SAME MONSTER
+FOUR CARDS OF THE SAME MONSTER
+So, what'll it be, sweetie?
+Hey, hey!\nWhatcha gonna do?
+POCKLE CARDS NUMBERED 1-5
+Not enough cards left!
+Hey! That's not fair!
+Well then, what'll it be?
+Awww, quitting already?
+Wanna hear the rules?
+Next trade's my last...
+...Nope, won't work.
+Can't place it there.
+Prize Exchange
+Let's settle up!
+A whole lotta nothin'!
+Yes, explain.
+Buy Coins
+No, thanks.
+Give Up
+      STOP!
 Stop
-Go on
-Then
-Yeah.
-Yeah.
-Money
-20 枚
-10 枚
-20 枚
-50 枚
-Stop
-go!
-eh.
-Back
-5 枚
-5 枚
-%s
-ｸﾑ
-璢
+Continue
+Quit
+BACK
+Let's tally up the payouts!
+All right, let's head back!
+So, who's your pick?
+Okay! Thank you so much!
+Okay! Come back and play again!
+Okaaay! Got it!
+Awww, what a shame!
+First, a little warm-up!\fIt's Mr. Thompson!
+Aw, man... You got me!\fMaybe this ain't my game!\nSee ya at the stadium!
+I'm Schlesinger, the\ngreatest Pockle Stone\nplayer alive! Ho ho!\fCome on, then, young lad!\nShow me what you've got!
+Well, hello there,\nyoung man!\fThis isn't a place\nfor children, you know!\fSo sorry!
+Ah, it's you! Heh heh...\fWitness the Takudo style\nof Pockle Stone!
+Now, how many coins\nwanna bet?\fThe more you bet,\nthe tougher your rival!\nSo choose carefully!
+Phew! That was close...\nA draw means I'm still\nundefeated! Ho ho ho!
+It's a game of making\nthe best five-card hand.\fFirst, we deal five cards.\fPress the ○ button\nto pick cards to trade.\fPick as many as ya like.\fPress ○ again to\nunselect a card.\fOnce you've picked, hit\nthe OK button.\fYour picks get swapped\nfor cards from the deck.\fKeep taking turns till\nthe deck runs out or\nsomeone calls STOP.\fWhoever has the best hand\nat the end wins!\fYou'll get coins from\nthe other player based\non your winning hand.\fTo call STOP, press STOP\nafter swapping your cards.\fPress GO to keep playing\nwhen your turn comes back.\fPress □ to see the list\nof hands.\fPhew! That's the end of mylong explanation!\fSounds tricky, but it'll\nmake sense once ya play.\fWant to hear all that\none more time, maybe?
+My, my!\fYou really wanna get\nin here that badly?\fBut rules are rules,\nso I can't let you in!\fI can't let anyone in\nwithout an invitation!\fAww, I'm sorry!
+Aww, I'm sorry!\fYou can't enter Pockle\nRace just yet!\fYou'll receive an\ninvitation once you're\neligible to race!\fAww, I'm sorry!
+Aww, I'm sorry!\fYou can't play Pockle Cardjust yet!\fYou'll receive an\ninvitation once you're\neligible to play!\fSo sorry!
+Okaaay! I'll teach you!\fUm, let's see... Um...\nUmmmm...\f...Huh? How did it go\nagain?\nAhahaha!\fW-well, you just need to\ntrap their pieces! !\fAny pieces you trap\nflip over to your side!\fYou'll figure it out\nonce you try! Right?
+Hrrgh?! You dare skip\nan old man's turn?!\nThe nerve of you!
+It's simple! Four\nmonsters race against\neach other!\fPick who you think'll\nwin and bet your coins!\fThere's lots of info\nto help you choose!\fNow, good luck!
+Heh heh heh...\nYou're no match for\nmy Takudo style!
+Hey there, sweetie!\fDidn't I tell you last\ntime you're not allowed inhere?\fOnly established Tamers\nare allowed in here!\fSo sorry, dear!
+Gotcha. Your next trade\nwill be the last one.
+C'mon, please...\n3 of a Kind!
+Whatcha wanna do?
+Not enough coins, huh...\nThat's just mean...\nPlease go on home.
+Ma! Pa! I finally did it!\nA Pockle Party! Woohoo!
+Legendary Pockle Party!\nN-no... Ya got me...\fTake %d coins.
+I can win this!\n4 of a Kind!!
+Ugh... I got nothin'...
+It's a draw, huh?\nYou're pretty good, pal.
+Hee hee! I'll play\n4 of a Kind!
+I lost, fair and square.\nYou got me this time.\fTake %d coins.
+Take this! Full House!
+You can go first, then.
+Yes!! This one's huge!\nStrike a Pose!!
+Oof... Just a Pair!
+That's it! Let's show\neach other our hands.
+Not bad, not bad!\nI got a Full House!
+Ooh, goodness gracious!\nI got Best Buds!
+Aw, no good...\nJust a Pair.
+Bye-bye now!\nHope to see ya again...
+Hey there!\nWelcome to Pockle Card!\fWant me to explain how therules work?
+How 'bout that, huh?\nLegendary Pockle Party!\fI'll take %d coins!
+Well then, let's play!
+Ugh... I lost this one.\nThat's a lot of coins...\fHere, take %d coins.
+I won, and it feels good!\fI'll take %d coins.
+I won! I really won!\nThis one's a big one!\fI'll take %d coins.
+That'll be %ld coins!\nSound good?\n　　　　　　　　　　ＹＥＳ　ＮＯ
+Money %6ldＧ
+Trade it for %s?\nSound good?\n　　　　　　　　　　ＹＥＳ　ＮＯ
+Wanna trade for %s?\nIt's %s, you know!
+Trading for %s?\nIt's %s, you know!
+Wanna trade for %s?\nWhat it does is a secret!\nHee hee!
+It's %s
+Oh, my! Big sis Mimi lost!Here, take my coins!
+Oh, come ON!!\nWhy does this happen to\nme?!
+A draw against me?!\nYou have real skill!
+Oopsie! Not enough coins!\nPick another bet, okay?
+Okaaay!\fPockle Card it is!\nRight this way!
+Now, pick how many coins\nto bet each round.\fBigger bets mean bigger\nrisks! Think it over!
+I'll go first, then.
+Not enough coins, huh?\nBetter think again.
+Yo! Thompson's here!\nBring it on, <name>!
+Heh heh... Look at that!\nNo Friends? is complete!
+You did it! Congrats!\nHow 'bout another round?
+Oh, dear!\nYou're short on coins!\fSooo sorry!
+Hellooo! Welcome!\nI've been waiting for you!
+Don't let your guard down!You're facing Mimi!
+Yowza! Here comes\nStrike a Pose!
+N-no! I refuse to lose!\nI-I'm the strongest...\nThe strongest, I say!!
+Hellooo! Welcome!\nI had a feeling you'd come!
+Again, again!\nLet's settle this!\nBlack versus white!
+All right! Best Buds!
+How's this?! No Friends?
+You're low on coins.\nGo get some more, okay?
+...!! I finally did it...\nPOCKLE PARTY!!!
+Ooh, childhood rivals!\nYou're up against Claire!
+Hellooo! Welcome!\nHave fun while you're here!
+Yes! I win!\nMan, is there anything\nI'm not good at?
+N-not bad! I'll admit it!\nAll right, one more round!
+It's Mimi, sweetie!\nI won't lose to you, kid!
+Okaaay.\nWell then, let's head back.
+Looks like I win!\nThat was a blast!\nLet's play again!
+He's strong! Guess age\nhas its perks, huh?\nYou're up, Schlesinger!
+Whaaat?! No way!\nNowhere to put a piece!
+Huh? Nowhere left to move!
+Well, I guess that'll do.\n3 of a Kind!
+Hi there! I'm Claire...\fOh, it's just you!\nDon't expect me to go
+Aww, too bad!\nTime for a rematch!
+A tie? Nah, that won't do!We gotta settle this!\nAm I right?
+And they're off!
+Oh, dear!\nYou're short on cash!
+La la la♪ La la la♪\nOoh, la la~♪
+He's tough! You can do it!It's Takudo! Good luck!
+Welcome to Pockle Stone!\fHey, hey! Wanna know\nhow to play?
+Ohh! We tied?!\nMaybe we just click, huh?
+Ridiculous! This game\nis far too simple to\nshow my true intellect!
+Okaaay!\nRight this way, please!
+Okaaay!\fPockle Stone it is!\nRight this way!
+Okaaay!\fRight this way to\nPockle Race!
+Hmm... No moves left?!\nHow can this be...?
+Still the strongest!\nThat's me, all right!\nHo ho ho!

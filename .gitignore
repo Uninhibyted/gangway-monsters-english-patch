@@ -128,8 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-script_config.py
-
 # Game files
 *.bin
 *.acb
@@ -143,4 +141,13 @@ SLPS_*
 .DS_Store
 *.tar.xz
 *.patch
+*.xdelta
 *.xz
+# Translated graphics: folders are named after game files, so undo the rules above
+!/graphics/**
+# ...except macOS metadata
+/graphics/**/.DS_Store
+
+# The game: the original .bin goes in rom/, and the build extracts and patches its files in work/
+/rom/
+/work/

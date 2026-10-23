@@ -1,147 +1,147 @@
-Do not remove the memory card.
-Fence (Joe's bullet)
-Load this file
-Light of endless stars
-Stone turned over (casino)
-No memory card found.
-Flames going out
-Fence contact
-Checking memory card.
-God birthplace
-Fence attack
-Set the developer flag
-Stroking hands
-Gambling
-Angel Mania (Adult)
+Do not remove the Memory Card.
+Fence Hit (Joe's Shot)
+Load saved data?
+Endless Starlight
+Stone Flipping (Casino)
+Memory Card not found.
+Flames May Erupt
+Fence Hit (Begoma)
+Checking Memory Card...
+God's Birthplace
+Fence Hit (Atk)
+Set the Developer Flag
+Hand Stirring
+Strike It Rich
+Angelmania (Adult)
 Cam Cam Claw (Adult)
-Speedmaster (adult)
-Angel Mania (Child)
+Speedmaster (Adult)
+Angelmania (Child)
 Cam Cam Claw (Child)
-Speedmaster (child)
+Speedmaster (Child)
 Door 3
 Door 2
 Door 1
-Revive items
-Data is corrupted.
-Want to play a card
-File not found.
-Not formatted.
-Deep sea
-Sickle swing
-Meteor crash
-Enchant Stadium
-Fence contact2
-Spinner crash9
-Spinner crash8
-Spinner crash7
-Spinner crash6
-Spinner crash5
-Spinner crash4
-Spinner crash3
-Spinner crash2
-Spinner crash1
-Reaper 2
-Bad bat (adult)
-Bad bat (child)
-Monster looks
-Flame is blowing
-Dessert stadium
-Jungle stadium
+Revival Item Use
+Save data is corrupted.
+Casino Jackpot
+Save file not found.
+Not Formatted.
+DeepSeaDream
+Scythe Swing
+Meteor Crash
+Ancient Stadium
+Fence Contact
+Spinner Hit 9
+Spinner Hit 8
+Spinner Hit 7
+Spinner Hit 6
+Spinner Hit 5
+Spinner Hit 4
+Spinner Hit 3
+Spinner Hit 2
+Spinner Hit 1
+Reap Abs
+Bad Bat (Adult)
+Bad Bat (Child)
+Monster Entry
+Flames Erupting
+Dessert Stadium
+Jungle Stadium
 Cosmic Stadium
-Queckey (adult)
-Perinin (adult)
+Queckey (Adult)
+Perinin (Adult)
 Franken (Adult)
-Pyramine (adult)
-Queckey (child)
-Perinin (child)
-Franken (child)
-Pyramine (child)
-Peppy dog launch
+Pyramine (Adult)
+Queckey (Child)
+Perinin (Child)
+Franken (Child)
+Pyramine (Child)
+Powan-Powan
 Monster Select
 Aurora Stadium
-Heavenly things
-Enchant Special
-Scream (adult)
-Merrick (adult)
-Scream (child)
-Merrick (child)
+Skyward Soarers
+Ancient Special
+Scream (Adult)
+Merrick (Adult)
+Scream (Child)
+Merrick (Child)
 Boomerang Get
-Watch the movie
-Goodbye piedia
-Pidia appears!
+Watch a movie!
+Farewell, Pydia
+Pydia Appears!
 Brother5
 Brother4
 Brother3
 Brother2
 Brother1
-Grandma's song
-Leader (adult)
-Prague (Adult)
+Grandma's Theme
+Leader (Adult)
+Plague (Adult)
 Johnny (Adult)
-Pockle (adult)
-Leader (child)
-Prague (Child)
-Johnny (child)
-Pockle (child)
-Peppy dog
+Pockle (Adult)
+Leader (Child)
+Plague (Child)
+Johnny (Child)
+Pockle (Child)
+Puff Sound
 Boomerang
-Damage (short)
+Damage (Short)
 Desert Sp.
-Meyer (adult)
-Meyer (child)
-Per boomerang
-Damage (long)
-Pockle stone
+Meyer (Adult)
+Meyer (Child)
+Boomerang Hit
+Damage (Long)
+Pockle Stone
 Aqua Stadium
-Jungle march
+Jungle March
 Ancient
-Aurora
-Oaks (adult)
-Skull (adult)
-Oaks (child)
-Skull (child)
+Aurora Sp.
+Oaks (Adult)
+Skull (Adult)
+Oaks (Child)
+Skull (Child)
 Shuriken
-Barrier start
+Barrier Start
 Meteor
-Beam for
+Beam Charge
 Sky Stadium
 Garage
 Blur (Adult)
-Edge (adult)
-Blur (child)
-Edge (child)
-Put the ball
+Edge (Adult)
+Blur (Child)
+Edge (Child)
+Insert Ball
 Quake
-Flying ax
-Test window
+Flying Axe
+Test Window
 Sound Test
-Joe (adult)
-Joe (child)
-Spread card
-Throw a bomb
-Fireball hit
-Tail waving
-3 per punch
-2 per punch
-1 per punch
+Joe (Adult)
+Joe (Child)
+Spread Cards
+Bomb Throw
+Fireball Hit
+Tail Swish
+Punch Hit 3
+Punch Hit 2
+Punch Hit 1
 Music Test
 Burning
-Race start
+Race Start
 Shuriken
-Per barrier
+Barrier Hit
 Barrier
-3 per tail
-2 per tail
-1 per tail
-I failed.
-Erase bgm
-world map
-Put piece
-Deal cards
-Flip card
-Throw ax
-Loading.
-Circle
+Tail Hit 3
+Tail Hit 2
+Tail Hit 1
+Operation failed.
+Music Off
+World Map
+Set Piece
+Deal Cards
+Flip Card
+Throw Axe
+Loading...
+Finale
 Wait
 Moving
 Register 2
@@ -149,50 +149,53 @@ Register 1
 Register 0
 Reaper
 Fanfare
-Stage SE
+Stage SFX
 Vibe 2
 Vibe 1
-Per kick
+Kick Hit
 Kick
-Beam
-Sickle
-Bullet
-Bullts
+Beam Hit
+Scythe
+Shot Hit
+Fire
 Thunder 2
 Thunder 1
-Beam
-opening
+Beam SFX
+Opening
 CommonSE
 Brighten
 Fireball
-No data
-I lost
-ending
-Get dark
-Slot 1
-Slot 2
+I lost...
+Ending
+Darken
+SLOT 1
+SLOT 2
 Shop
 Psyche
 Twinkle
-Biting
+Bite
 Pydia
 Steam4
 Steam3
 Steam2
 Steam1
-Per ax
-title
-casino
-chime
-Tndo
+Axe Hit
+Title
+Casino
+Chime
+Gale
 Punch
-Lose v
+Losing
 Games
 Yay
-Atk v
-Win v
-beam
+AtkCry
+WinCry
+Beam
 Fire
 Pong
-call
-pin
+Call
+Pin
+LOAD
+YES
+NO
+%d: Empty

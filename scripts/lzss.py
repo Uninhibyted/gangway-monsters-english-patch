@@ -16,31 +16,44 @@ def byte_header_size(total_size):
     chunk.append((total_size & 0xff000000) >> 24)
     return chunk
 
-def find_data(data, i):
-    min_idx = (( i // MAX_WINDOW_SIZE ) * MAX_WINDOW_SIZE)
-    subdata = data[min_idx:i]
-    for k in range(16, 1, -1):
-        chunk = data[i:i+k]
-        offset = subdata.rfind(chunk)
-        if offset > -1:
-            sublen = len(subdata)
-            length = len(chunk)
-            return (offset, length)
-    return None
+MAX_MATCH = MAX_REF_LEN + MIN_REF_LEN
+# The game's own compressed data never references further back than this, and never
+# uses an offset field of 0 (a source position just before a 4096-byte boundary).
+# Its decompressor breaks on either, so the compressor avoids them too.
+MAX_DISTANCE = 4079
+
+def find_data(data, i, positions):
+    # Longest match starting at most MAX_DISTANCE bytes back. It may run past i, since the
+    # decompressor copies byte by byte (that's how runs get encoded).
+    best = None
+    end = min(len(data), i + MAX_MATCH)
+    for start in reversed(positions.get(bytes(data[i:i+MIN_REF_LEN]), ())):
+        if start < i - MAX_DISTANCE: break
+        if (start + 1) & WINDOW_SIZE == 0: continue
+        length = MIN_REF_LEN
+        while i + length < end and data[start + length] == data[i + length]:
+            length += 1
+        if best is None or length > best[1]:
+            best = (start, length)
+            if i + length == end: break
+    return best
 
 def decompress(data, remove_header=True):
+    size = None
     if remove_header:
         # MONBOOK.TIM has 1A 2B 01 00 30 AB 03 00 (compressed size, decompressed size)
+        size = int.from_bytes(data[4:8], 'little')
         data = data[HEADER_SIZE:]
 
     result = bytearray()
     idx = 0
 
-    while idx < len(data)-7:
+    while idx < len(data)-7 or (size is not None and idx < len(data) and len(result) < size):
         flags = data[idx]
         idx += 1
 
         for t in range(8):
+            if size is not None and len(result) >= size: break
             flag = flags & 1
             flags = flags >> 1
 
@@ -70,14 +83,27 @@ def compress(data):
     result = bytearray()
     idx = 0
     max_len = len(data)
-    startprint = False
+    positions = {}
+    indexed = 0
     while idx < max_len:
         flag = 0
         chunk = bytearray()
 
         for bit in range(8):
-            
-            match = find_data(data, idx)
+            while indexed < idx:
+                positions.setdefault(bytes(data[indexed:indexed+MIN_REF_LEN]), []).append(indexed)
+                indexed += 1
+
+            match = find_data(data, idx, positions)
+            if match and match[1] < MAX_MATCH:
+                # Lazy matching: if a longer match starts at the next byte, emit this
+                # byte as a literal and take that one instead
+                while indexed <= idx:
+                    positions.setdefault(bytes(data[indexed:indexed+MIN_REF_LEN]), []).append(indexed)
+                    indexed += 1
+                following = find_data(data, idx + 1, positions)
+                if following and following[1] > match[1] + 1:
+                    match = None
             if match:
                 offset, length = match
                 l = (length-2)

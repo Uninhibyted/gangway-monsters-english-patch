@@ -1,144 +1,142 @@
-Can be revived once HP reaches 0
-Lots of experience gained
-Necessary for growing monsters
-Necessary to create monsters
-You can buy Mithril series
-You can buy Platinum series
-Begoma ability improves more
-Easy atk energy accumulation
-Angel Mania requires it
-Atk energy accumulates
-Even more winnings incr.
-Summoning time decreases
-Increases attack power
-Defense power rises
-Gain more experience
-Improve Begoma ability
-Penylin requires it
-Revive to max HP
-Pretty good engine
-Pretty good gyro
-Shorter summons
-Great engine
-Pretty good engine
-Moderate engine
-Pretty good ring
-Wonderful gyro
-Pretty good gyro
-Reasonable gyro
-Cause ball (BK)
-Cause ball (BL)
-Cause ball (R)
-Cause ball (P)
-Cause ball (Y)
-Cause ball (G)
-Cause ball (W)
-Incr. winnings
-Amazing engine
-Mythril engine
-Platinum engine
-Gold engine
-Iron engine
-Normal engine
-Nickel engine
-Bronze engine
-Wonderful ring
-Pretty nice ring
-Moderate ring
-Great gyro
-Mythril gyro
-Platinum gyro
-Gold gyro
-Iron gyro
-Normal gyro
-Nickel gyro
-Bronze gyro
-Angel Mania
-Machine Gun Jaw
+Revive Once at 0 HP
+Greatly increases EXP gained.
+Needed for Monster Growth
+Needed to Create Monster
+Mithril Series Available
+Platinum Series Available
+Greatly Boosts Begoma Stats
+Faster ATK Charge
+Required for Angelmania
+Fast Attack Charge
+Much More Prize Money
+Greatly reduces summon time
+Greatly boosts ATK
+Greatly boosts DEF
+Boosts EXP Gain
+Boosts Begoma Stats
+Needed for Perinin
+Revive at Full HP
+A pretty good engine!
+A pretty good gyro
+Faster Summoning
+An amazing engine!
+A really good engine!
+Not a bad engine.
+A pretty good ring!
+An amazing gyro
+A really good gyro
+Not a bad gyro
+Black Core Orb
+Blue Core Orb
+Red Core Orb
+Purple Core Orb
+Yellow Core Orb
+Green Core Orb
+White Core Orb
+Boosts Prize Money
+One heck of an engine!
+Mythril Engine
+Platinum Engine
+Gold Engine
+Iron Engine
+Just an average engine.
+Nickel Engine
+Bronze Engine
+An amazing ring!
+A really good ring!
+Not a bad ring
+One heck of a gyro
+Mythril Gyro
+Platinum Gyro
+Gold Gyro
+Iron Gyro
+Just your average gyro
+Nickel Gyro
+Bronze Gyro
+Angelmania
+Machine Gun Joe
 Speedmaster
-Pwan Pwan attack
+Powan-Powan Attack
 Fireball
-Summon, STR Ltn
-Atk increases
-Increase Def.
-Titanium Eng
-Cheap engine
-Amazing ring
+Summon/Elec Res
+Boosts ATK
+Boosts DEF
+Titanium Engine
+A cheap engine.
+One heck of a ring
 Mythril Ring
-Platinum ring
-Gold ring
-Iron ring
-Normal ring
-Nickel ring
-Bronze ring
-Titanium gyro
+Platinum Ring
+Gold Ring
+Iron Ring
+Just your average ring.
+Nickel Ring
+Bronze Ring
+Titanium Gyro
 Cam Cam Claw
-STR Summons
-Gangway
-Power+
-Titanium Rg
-Cheap gyro
+Summon Magic Res
+Super Power Stone
+Titanium Ring
+A cheap gyro
 Bad Bat
-HPAbsorb ray
-Wield sickle
-ElectroField
-Ltn Summon
-Rotate tail
-Monsters
-Weird leaf
-Desire+
-Exp.+
-Summoned+
-Absorb+
-Motion+
-Defense+
-Revive+
-Power
-Cheap ring
+HP Drain Beam
+Scythe Swing
+Electro Barrier
+Summon Thunder
+Tail Spin
+Weird Leaf
+Super Desire Stone
+Super EXP Stone
+Super Summon Stone
+Super Absorb Stone
+Super Movement Stone
+Super Defense Stone
+Super Revive Stone
+Power Stone
+A cheap ring
 Pydia
 Queckey
 Perinin
 Scream
 Frankie
-3X bomb
-Throws ax
+Triple Burst
+Axe Throw
 Machinegun
-Mgk Meteor
-Ltn beam
-Throw head
-STR Skull
-STR shock
-WK shock
+Summon Meteor
+Lightning Beam
+Head Toss
+Skull Resistance
+Electric Resist
+Electric Weak
 Rex
 Ebisu
-Cat
-Angel Rg
-Desire
-Exp.
-Summon
-Absorb
-Motion
-Defense
-Revive
+Lucky Cat
+Angel Ring
+Desire Stone
+EXP Stone
+Summon Stone
+Absorb Stone
+Movement Stone
+Defense Stone
+Revive Stone
 Oaks
 Leader
 Merrick
 Meyer
-Prague
+Plague
 Pyramine
 Johnny
 Pockle
-Quake
-Death
-Shuriken
+Summon Quake
+Summon Reaper
+Feather Shuriken
 Bite
 Blur
 Skull
 Edge
-kick
-punch
-TRNO
-bomb
+Kick
+Punch
+Gale
+Bomb
 None
-Back
+Delete
 Done

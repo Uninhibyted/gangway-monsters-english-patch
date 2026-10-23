@@ -1,27 +1,28 @@
-Player 1 Want to vibrate?
-Player 2 Want to vibrate?
-Do not remove the memory card.
-Sure you want to load?
-No memory card found.
-Checking memory card.
-Do you want to set it?
+Player 1 Enable Rumble?
+Player 2 Enable Rumble?
+Do not remove the Memory Card.
+Load Save Data?
+Memory Card not found.
+Checking Memory Card...
+Configure your Begoma?
 (DUAL SHOCK only)
-Load match data?
-Don't bring items
-Data is corrupted.
-Want to load?
-File not found.
-Not formatted.
-Player 2 data
-Do not have
-Do not have
-Do not have
-I failed.
-Loading.
+Load Match Data?
+Bring no items
+Save data is corrupted.
+Load Player Data?
+Player Data Not Found.
+Not Formatted.
+Player 2 Data
+Not Available
+Operation failed.
+Loading...
 Player 1
 Player 2
-No items
-No data
-Slot 1
-Slot 2
-Back
+No Items
+SLOT 1
+SLOT 2
+BACK
+LOAD
+YES
+NO
+%d: Empty
