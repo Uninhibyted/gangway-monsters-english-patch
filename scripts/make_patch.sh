@@ -3,20 +3,32 @@
 # original Japanese .bin as an xdelta file, next to the English .bin, named with the version at
 # the top of CHANGELOG.md. Needs xdelta3
 # (macOS: brew install xdelta; Linux: apt install xdelta3).
-#   scripts/make_patch.sh [<Japanese .bin>]
+#   scripts/make_patch.sh [--no-info-screen] [<Japanese .bin>]
+# --no-info-screen builds without the credits screen (see build.sh) and adds
+# "(no info screen)" to the patch's name.
 set -euo pipefail
+FLAGS=()
+SUFFIX=""
+args=()
+for arg in "$@"; do
+    case "$arg" in
+        --no-info-screen) FLAGS+=("$arg"); SUFFIX=" (no info screen)" ;;
+        *) args+=("$arg") ;;
+    esac
+done
+set -- ${args[@]+"${args[@]}"}
 command -v xdelta3 > /dev/null || { echo "xdelta3 not found: install it first (brew install xdelta / apt install xdelta3)" >&2; exit 1; }
 [ $# -ge 1 ] && export GAME_BIN="$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"
 cd "$(dirname "$0")"
 
-bash build.sh
+bash build.sh ${FLAGS[@]+"${FLAGS[@]}"}
 
 conf() { python3 -c "from script_config import *; print($1)"; }
 JA="$(conf GAME_BIN)"
 EN="$(conf GAME_BIN_OUT)"
 VERSION="$(sed -n 's/^## \[\(v[^]]*\)\].*/\1/p' ../CHANGELOG.md | head -1)"
 [ -n "$VERSION" ] || { echo "No version heading (## [v...]) in CHANGELOG.md" >&2; exit 1; }
-PATCH="$(dirname "$EN")/Gangway Monsters (English) $VERSION.xdelta"
+PATCH="$(dirname "$EN")/Gangway Monsters (English) $VERSION$SUFFIX.xdelta"
 
 # No secondary compression, so every xdelta patcher (Rom Patcher JS, Delta Patcher) can apply it
 xdelta3 -e -f -9 -S none -s "$JA" "$EN" "$PATCH"

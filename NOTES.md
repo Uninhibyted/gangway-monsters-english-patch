@@ -133,6 +133,23 @@ checks the total.
 `build_rom.py`, which patches files in place and recomputes sector EDC/ECC (no psximager needed).
 A patched file must still fit in the sectors the original uses.
 
+## Info Screen
+
+See `info_screen.py`. After the Sony Music logo the butler, in one of the game's message boxes
+with his portrait, credits the translation; the version (from `CHANGELOG.md`) is at the bottom
+right. `build.sh --no-info-screen` leaves it out.
+
+The logo is the SMELogo scene (`BIN/SMELOGO.BIN`), which runs one state per frame from a
+table. Its last state (wait for the fade out, then switch to TitleMenu) now points at code
+added to the end of the overlay, assembled by the script. It uses the main program's window
+routines (style 0 is the message box, 2 text only; setting a window waiting shows the button
+icon), the logo's two sprites for the portrait and the version, and waits for a face button.
+
+Three images are appended to `FIELD/SMELOGO.DAT`, which the scene already loads: the window
+parts from `TITLE.DAT` (the boxes' corners and button icon; the title screen normally loads
+them, and they stay in VRAM), the butler's portrait from the Garage in `FIELD.ACB`, and the
+version, drawn in a small font by the script.
+
 ## Graphics
 
 Translated images are stored as indexed PNGs in `graphics/<game file>/<offset>.png` (e.g.

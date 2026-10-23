@@ -25,8 +25,8 @@ The translation was first made with Google Translate, and has since been reworke
 * See `scripts` for scripts used to create the patch. Keep in mind some of them are just one-off scripts used to save some time. The main script is `replace_bytes.py`, which also updates game logic to work with English words.
 * `en-ja` contains the Japanese/English pairings for translation.
 * `graphics` contains the translated images, as PNGs (see [NOTES.md](NOTES.md#graphics)).
-* To build: install Pillow (`pip3 install -r scripts/requirements.txt`), put the original Japanese `.bin` at `rom/Gangway Monsters (Japan).bin`, and run `scripts/build.sh`. It writes `rom/Gangway Monsters (English).bin`. To use a `.bin` somewhere else, run `scripts/build.sh /path/to/japanese.bin [/path/to/english.bin]`.
-* To make the patch for a release: `scripts/make_patch.sh` (needs `xdelta3`). It builds, then writes `rom/Gangway Monsters (English) <version>.xdelta` (the version at the top of `CHANGELOG.md`) and checks that it reproduces the English `.bin`.
+* To build: install Pillow (`pip3 install -r scripts/requirements.txt`), put the original Japanese `.bin` at `rom/Gangway Monsters (Japan).bin`, and run `scripts/build.sh`. It writes `rom/Gangway Monsters (English).bin`. To use a `.bin` somewhere else, run `scripts/build.sh /path/to/japanese.bin [/path/to/english.bin]`. Add `--no-info-screen` to leave out the screen with the translation's credits and version after the Sony Music logo.
+* To make the patch for a release: `scripts/make_patch.sh` (needs `xdelta3`). It builds, then writes `rom/Gangway Monsters (English) <version>.xdelta` (the version at the top of `CHANGELOG.md`) and checks that it reproduces the English `.bin`. With `--no-info-screen` it builds without the credits screen and adds `(no info screen)` to the patch's name.
 
 ## Reporting bugs, typos, etc.
 
