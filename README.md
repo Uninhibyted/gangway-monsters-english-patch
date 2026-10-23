@@ -10,8 +10,8 @@ The translation was first made with Google Translate, and has since been reworke
   * CRC32: `4ab65ea6`
   * MD5: `124e592618437b3475f4c81d8c045a75`
   * SHA-1: `b671ccc3306ddcf58c09c4f8ee175dd1e26e27b0`
-* Download `Gangway Monsters (English).xdelta` from the [releases page](../../releases).
-* Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) in your browser, choose the game's `.bin` as the ROM file and the `.xdelta` as the patch, and press "Apply patch". It shows the ROM's checksums when you choose it, so you can compare them with the ones above. (On Windows, [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher) works too; on the command line, `xdelta3 -d -s game.bin "Gangway Monsters (English).xdelta" english.bin`.)
+* Download `Gangway Monsters (English) <version>.xdelta` from the [releases page](../../releases).
+* Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) in your browser, choose the game's `.bin` as the ROM file and the `.xdelta` as the patch, and press "Apply patch". It shows the ROM's checksums when you choose it, so you can compare them with the ones above. (On Windows, [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher) works too; on the command line, `xdelta3 -d -s game.bin "Gangway Monsters (English) <version>.xdelta" english.bin`.)
 * Keep the `.cue` file next to the patched `.bin`, with the `FILE` line inside it changed to the patched `.bin`'s name.
 
 ## Screenshots
@@ -26,7 +26,7 @@ The translation was first made with Google Translate, and has since been reworke
 * `en-ja` contains the Japanese/English pairings for translation.
 * `graphics` contains the translated images, as PNGs (see [NOTES.md](NOTES.md#graphics)).
 * To build: install Pillow (`pip3 install -r scripts/requirements.txt`), put the original Japanese `.bin` at `rom/Gangway Monsters (Japan).bin`, and run `scripts/build.sh`. It writes `rom/Gangway Monsters (English).bin`. To use a `.bin` somewhere else, run `scripts/build.sh /path/to/japanese.bin [/path/to/english.bin]`.
-* To make the patch for a release: `scripts/make_patch.sh` (needs `xdelta3`). It builds, then writes `rom/Gangway Monsters (English).xdelta` and checks that it reproduces the English `.bin`.
+* To make the patch for a release: `scripts/make_patch.sh` (needs `xdelta3`). It builds, then writes `rom/Gangway Monsters (English) <version>.xdelta` (the version at the top of `CHANGELOG.md`) and checks that it reproduces the English `.bin`.
 
 ## Reporting bugs, typos, etc.
 

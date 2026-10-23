@@ -1,6 +1,7 @@
 #!/bin/bash
 # Makes the patch players apply: builds the English .bin, then writes its difference from the
-# original Japanese .bin as an xdelta file, next to the English .bin. Needs xdelta3
+# original Japanese .bin as an xdelta file, next to the English .bin, named with the version at
+# the top of CHANGELOG.md. Needs xdelta3
 # (macOS: brew install xdelta; Linux: apt install xdelta3).
 #   scripts/make_patch.sh [<Japanese .bin>]
 set -euo pipefail
@@ -13,7 +14,9 @@ bash build.sh
 conf() { python3 -c "from script_config import *; print($1)"; }
 JA="$(conf GAME_BIN)"
 EN="$(conf GAME_BIN_OUT)"
-PATCH="$(dirname "$EN")/Gangway Monsters (English).xdelta"
+VERSION="$(sed -n 's/^## \[\(v[^]]*\)\].*/\1/p' ../CHANGELOG.md | head -1)"
+[ -n "$VERSION" ] || { echo "No version heading (## [v...]) in CHANGELOG.md" >&2; exit 1; }
+PATCH="$(dirname "$EN")/Gangway Monsters (English) $VERSION.xdelta"
 
 # No secondary compression, so every xdelta patcher (Rom Patcher JS, Delta Patcher) can apply it
 xdelta3 -e -f -9 -S none -s "$JA" "$EN" "$PATCH"
