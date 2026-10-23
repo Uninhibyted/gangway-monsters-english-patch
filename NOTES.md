@@ -40,7 +40,14 @@ their own glyphs.
 
 ## Name Input
 
-See `replace_bytes.py`. The updates made in `replace_asm` when updating the SLPS file is all related to the name input. It basically changes it to only read/write 1 byte instead of 2, and updates the way the cursor moves so that it will hover over the character in the right spot.
+See `replace_bytes.py`. The updates made in `replace_asm` when updating the SLPS file is all related to the name input. It basically changes it to only read/write 1 byte instead of 2.
+
+Each key is a 4-byte slot. The grid draws a row by joining its 11 keys' strings, and the
+original added a key's string to the name, so the grid and the name used the same characters.
+Each slot now holds a full-width character (`Ａ`, drawn with the BIOS font like the Japanese)
+and, in its last byte, the 1-byte letter it types (`name_keyboard`). The routine that adds a
+key (`80020658`) appends that byte, so the grid has the Japanese spacing and the cursor keeps
+its original 16px columns.
 
 #### TODO's
 

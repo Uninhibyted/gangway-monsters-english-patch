@@ -1,6 +1,11 @@
 # Changelog
 
-## [v0.3](../../releases)
+## [v0.3.1](../../releases)
+
+* The name entry grid shows full-width letters spaced like the Japanese, and the cursor moves
+  between them as in the original.
+
+## [v0.3](../../releases/tag/v0.3)
 
 * Rewrote the English by hand across the whole game: field events and conversations, menus,
   items and monsters, the casino and its mini-games, battle and VS mode text, the title screen,
